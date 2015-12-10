@@ -43,7 +43,7 @@ group :development do
   gem 'spring'
 end
 
-# ecommerce plattafrom
+# ecommerce plattafrom solidus-spree
 gem 'solidus'
 gem 'solidus_auth_devise'
 
