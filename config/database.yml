@@ -86,10 +86,10 @@ test:
 #
 production:
   <<: *default
-  host: ''
+  host: localhost
   adapter: postgresql
   encoding: utf8
   database: enlatienda_co_production
   pool: 5
-  username: <%= ENV['ENLATIENDA_CO_DATABASE_USER'] %>
-  password: <%= ENV['ENLATIENDA_CO_DATABASE_PASSWORD'] %>
+  username: enlatienda_co
+  password: 1030531200
