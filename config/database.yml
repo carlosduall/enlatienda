@@ -86,7 +86,7 @@ test:
 #
 production:
   <<: *default
-  host: localhost
+  host: ''
   adapter: postgresql
   encoding: utf8
   database: enlatienda_co_production
