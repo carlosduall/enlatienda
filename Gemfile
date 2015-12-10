@@ -52,3 +52,6 @@ group :production do
   gem 'pg'
   gem 'puma'
 end
+
+#internacioalizacion
+gem 'solidus_i18n', github: 'solidusio-contrib/solidus_i18n', branch: 'master'
